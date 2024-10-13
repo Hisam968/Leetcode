@@ -14,8 +14,10 @@ class Solution {
             expandRange(s, start, start + 1);
         }
         return s.substring(resultStart, resultStart + resultLength);
+        //the function returns the longest palindromic substring by using the substring() method with the indices stored in resultStart and resultLength
     }
 
+    //The expandRange method attempts to expand around the center, begin and end
     private void expandRange(String s, int begin, int end){
         while (begin >= 0 && end < s.length() && 
                 s.charAt(begin)==s.charAt(end)){
@@ -23,8 +25,8 @@ class Solution {
             end++;
         }
         if (resultLength < end - begin -1){
-            resultStart = begin + 1;
-            resultLength = end - begin -1; 
+            resultStart = begin + 1;  // Update the starting index of the longest palindrome found
+            resultLength = end - begin -1;  // Update the length of the longest palindrome found
         }
     }
 };
