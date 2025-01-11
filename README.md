@@ -30,4 +30,12 @@ Solving Problems +1
 | ------- |
 | [0015-3sum](https://github.com/Hisam968/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Hisam968/Leetcode/tree/master/0016-3sum-closest) |
+## Linked List
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/Hisam968/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
+## Recursion
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/Hisam968/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 <!---LeetCode Topics End-->
